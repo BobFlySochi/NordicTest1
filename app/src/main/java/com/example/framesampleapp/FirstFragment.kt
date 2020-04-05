@@ -16,7 +16,7 @@ class FirstFragment:Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_one, container, false)
     }
-
+//test git features in feature branch
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         selectionSupreme.text = arguments?.getString("key") ?: "Nan"
