@@ -19,7 +19,7 @@ class SecondFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+//another two
         selectionButton2.setOnClickListener {
 
             selectionFragment2.visibility = View.VISIBLE
@@ -30,4 +30,5 @@ class SecondFragment : Fragment() {
                 ?.commit()
         }
     } //trest
+    //trest2
 }
