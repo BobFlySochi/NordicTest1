@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val fragmentOne = FirstFragment()
         val fragmentTwo = SecondFragment()
-
+// another two comment for git test
         val someData = Bundle()
         someData.putString("key", "value")
        // someData.putInt("intKey", 45)
